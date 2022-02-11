@@ -947,7 +947,7 @@ header .textos-header{
     animation-duration: 1s;
     animation-name: slidein;
     font-family: 'Baloo Paaji', cursive;
-    -webkit-text-stroke: 0.01px rgba(255, 255, 255, 0.747);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.747);
     border: 1px;
 
 
