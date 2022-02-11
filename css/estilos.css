@@ -1016,7 +1016,7 @@ header .textos-header{
   
 }
 .contenido-textos h3{
-    margin-bottom: px;
+    margin-bottom: 10px;
     color: #06055c;
 
 }
@@ -1099,7 +1099,7 @@ header .textos-header{
   .ccform-addon {
     color: #1CB5E0;
     float: left;
-    padding: 2px;
+    padding: 1px;
     width: 10%;
     background: #ffffff;
     text-align: center;
