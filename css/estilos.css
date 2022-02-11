@@ -1111,7 +1111,7 @@ header .textos-header{
     background: #ffffff;
     border: 2px solid #1CB5E0;
     padding: 15.5px;
-    width: 60.9%;
+    width: 81.9%;
     display: block;
     font-family: "Lato", Arial, sans-serif;
     font-size: 10px;
@@ -1128,15 +1128,14 @@ header .textos-header{
     border: 2px solid #1CB5E0;
     background:#1CB5E0; ;
     color: #ffffff;
-    padding: 12px 10px;
+    padding: 12px 100px;
     cursor: pointer;
     text-decoration: none;
     font-weight: bold;
-    width: 100px;
+    width: 300px;
     margin: 0 auto;
     
-   
- 
+    
     
     
   }
