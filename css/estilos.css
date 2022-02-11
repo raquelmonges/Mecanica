@@ -890,7 +890,7 @@ nav a{
     padding: 10px 8px;
     color:white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 15px;
     text-shadow: -1px 0 black, 0 1px black,
     1px 0 black, 0 -1px black;
     color: white; text-shadow: black 0.1em 0.1em 0.2em;
@@ -916,6 +916,7 @@ nav a:hover{
     transition: background-size 0.25s ease-in;
     font-family: 'Audiowide';
     letter-spacing: 2px;
+    border: #ffffff;
   }
 
 .underline--magical:hover {
@@ -941,7 +942,7 @@ header .textos-header{
 
 .textos-header h1{
     line-height: 1.5cm;
-    font-size: 50px;
+    font-size: 65px;
     color:rgb(255, 255, 255);
     color: #149196; text-shadow: black 0.1em 0.1em 0.2em;
     animation-duration: 1s;
@@ -971,7 +972,7 @@ header .textos-header{
 .textos-header h2{
     line-height: 2.0cm;
     font-family: 'Sofia';
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700px;
     color:rgb(253, 250, 39);
     text-shadow: -1px 0 rgb(24, 24, 24), 0 1px rgb(0, 0, 0),
@@ -1043,11 +1044,12 @@ header .textos-header{
     display: flex;
     width: 96%;
     height: 200px;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: left;
+    justify-content:  auto;
     border-radius: 2px;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
     background-image: linear-gradient(120deg, #8360c3 0%, #2ebf91 100%);
+    
 }
 
 .cards .card img{
@@ -1057,11 +1059,13 @@ header .textos-header{
     border: 2px solid #fff;
     border-radius: 50%;
     display: block;
+    position: relative;
     
 }
 
 .cards .card > .contenido-texto-card{
-    width: 80%;
+    text-align: center;
+    width: 100%;
     color: #fff;
     
 }
